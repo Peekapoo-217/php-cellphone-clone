@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/main/bg-login.jpg'); /* Đường dẫn đến hình ảnh */
+    background-size: cover; /* Hiển thị hình ảnh với kích thước bằng với kích thước của cửa sổ trình duyệt */
+    background-repeat: no-repeat; /* Ngăn chặn hình ảnh lặp lại */
+    padding:0;
+    margin:0; 
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 100%;
+}
+.main-reister{
+    width: 40%;
+    margin: 0 auto;
+    display:  block;
+    margin-top: 50px;
+    min-width: 400px;
+}
+.reister-title{
+    text-align: center;
+    color: #fff;
+}
+.reister-main form{
+    width: 60%;
+    margin: 0 auto;
+
+
+}
+.reister-main form input{
+    
+    color: #fff;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    margin-bottom: 5px;
+    height: 50px;
+    background: none;
+    border-bottom: 1px solid white;
+    
+
+}
+.text-reister{
+    display: flex;
+    color: #fff;
+    font-size: 13px;
+
+}
+.reister-main form input[type="submit"]{
+    background: #ff3366;
+    color: #FFF;
+    font-size: 26px;
+    padding: 0.3em 1.2em;
+    margin: 0 auto;
+    width: 60%;
+    height: 40px;
+    min-width: 170px;
+    font-weight: 500;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Roboto Condensed', sans-serif;
+    &:hover{
+        background: #b5183f;
+    }
+    margin-top: 20px;
+}
+.reister-main form input[type="date"]{
+    color: #908d8d;
+    
+}
+.reister-main form input[type="date"]::-webkit-calendar-picker-indicator{
+    filter: invert(100%); /* Đảo ngược màu sắc của biểu tượng */
+ 
+}
+

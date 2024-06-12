@@ -1,0 +1,279 @@
+#container-left{
+    width: 200px;
+    height: 800px;
+    border-radius: 10px;
+    margin-top: 100px;
+    flex-basis:40%;
+}
+
+.wp-content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top:  10px;
+    margin-bottom: 10px;
+    background-color: #f6fbfc;
+    box-sizing: border-box;
+
+
+}
+
+
+#content-right{
+    height: 660px;
+    flex-basis: 60%;
+    box-shadow: 0 0 0.8px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+} 
+
+
+.user-infor-content{
+    height: 650px;
+    width: 100%;
+}
+
+.user-avt-name{
+    margin: 0 auto;
+    height: 170px;
+} 
+.user-infor-avatar{
+    display: flex;
+    margin: 0 auto;
+    width: 85px;
+    height: 150px;
+} 
+
+.user-infor-avatar img{
+    margin-bottom: 5px;
+    border-radius: 10px;
+    width:auto;
+    margin-top: 10px;
+
+}
+
+
+
+.form .field input{
+    box-sizing: border-box;
+    width: 70%;
+}
+.group-items{
+    border: none;
+    border-bottom: 1px solid rgb(212, 207, 207); 
+    height: 40px;
+    padding: 10px 20px;
+    margin-left:160px;
+    margin-bottom: 32px;
+}
+.group-items-img img{
+    width: auto;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    margin-right: 230px;
+    margin-top: 9px;
+}
+
+
+.btn-update{
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 30%;
+    text-align: center;
+    padding: 8px;
+    font-size: 16px;
+    margin: 5 auto;
+    color: white;
+}
+
+.btn-update:hover{
+    background-color: crimson;
+    transition: 0.1s;
+}
+.active-menu{
+    color:red;
+}
+
+#sidebar{
+    margin-top: 30px;
+    padding:10px;
+    /* box-shadow: 0 0 1px; */
+    width: 274px;
+    height: 630px;
+    /* background-color: #f6fbfc; */
+    border-radius: 10px;
+    position: relative;
+  
+    /* margin-left: 100px; */
+    /* left : -250px; */
+    /* transition: left 0.3s ease; */
+    box-sizing: border-box;
+}
+
+#sidebar:hover{
+    left: 0;
+} 
+
+.icon-tabler-edit{
+    width: 20px;
+    height: auto;
+    line-height: 1.2;
+}
+
+.avatar{
+    margin-right: 20px;
+    align-items: center;
+}
+
+.avatar img{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    align-items: center;
+}
+.text{
+    margin: 10px;
+}
+
+
+.text:hover a{
+    color: orangered;
+    transition: 0.3s;
+} 
+
+.list-setting{
+    margin: 10px;
+    margin-left: 42px; 
+}
+
+.text-list{
+    margin: 10px;
+}
+
+.block-menu{
+    align-items: center;
+    border-radius: 15px;
+    margin: 30px;
+}
+.block-menu img{
+    height:auto;
+    width: 30px;
+    margin-right: 10px;
+}
+
+
+.user-details{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.user-details img{
+    height:auto;
+    width: 30px;
+    margin-right: 10px;
+}
+
+
+#button-email{
+    width: 30px;
+}
+
+.table{
+    display: flex;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 100px;
+    border-collapse: collapse;
+}
+
+/* #container{
+    display: flex;
+} */
+
+#container-details{
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    margin: 10px 0;
+}
+
+
+
+.container-details label{
+    flex-basis: 100px;
+    font-weight: bold;
+}
+.container-details input,
+.container-details button {
+    flex-basis: 70%; 
+}
+
+.button-email {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+  
+.button-email:hover{
+    background-color: #2980b9;
+    color:black;
+}
+
+.td{
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    vertical-align: inherit;
+}
+
+
+
+#form{
+    border: 1px solid #dcd2d2;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 30%;
+}
+
+#footer{
+    background-color: grey;
+    padding: 10px;
+}
+
+.list-course{
+    padding-left: 0px;
+    list-style: none;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field label, .field input {
+    margin: 5px 0;
+    display: flex;
+    justify-content: left;
+    width: 70%;
+}
+.field {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.field label, .field input {
+    margin: 5px 0;
+}
+.field label{
+    font-size: 14px;
+}

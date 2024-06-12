@@ -1,0 +1,137 @@
+/*--------------------------------------cart-----------------------*/
+.cart {
+  /* width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px; */
+  min-height: 400px;
+  flex-basis: 60%;
+  box-shadow: 0 0 0.8px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  width: 952px;
+  box-sizing: border-box;
+}
+
+
+.cart top_list_table{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+
+.cart h2 {
+  margin-bottom: 20px;
+}
+.cart table {
+  width: 100%;
+
+}
+
+.cart td{
+  text-align: center;
+}
+
+.cart table thead tr th{
+  text-align: center;
+  padding: 12px;
+}
+.cart table tr td {
+  border-bottom: 1px solid #ddd;
+  padding: 12px;
+}
+/* .cart table thead tr th:last-child {
+  text-align: right;
+}
+.cart table tbody tr td:last-child {
+  text-align: right;
+} */
+.order-button {
+  background-color: #cd0000;
+  border: none;
+  color: white; /* Màu chữ */
+  padding: 15px 32px; /* Kích thước nút */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.order-button:active {
+  background-color: #a00000; /* Màu nền khi click */
+  transform: scale(0.95); /* Hiệu ứng thu nhỏ khi click */
+}
+.highlight {
+  color: red;
+  font-weight: bold;
+  animation: blink 3s infinite;
+}
+@keyframes blink {
+  0% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0.3;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.order-button.clicked {
+  background-color: #a00000; /* Màu nền sau khi click */
+  color: #c3e6cb; /* Màu chữ sau khi click */
+}
+.btn-warning {
+  background-color: #cd0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+  background-color: #a00000; /* Màu tối hơn khi hover */
+}
+
+.btn-md {
+  font-size: 16px; /* Kích thước trung bình, bạn có thể thay đổi theo ý muốn */
+}
+
+.btn i {
+  margin-right: 5px; /* Khoảng cách giữa icon và text */
+}
+
+
+.cart {
+  /* Thiết lập vị trí tương đối cho phần giỏ hàng */
+  position: relative;
+  max-height: 600px; /* Hoặc bất kỳ giá trị nào phù hợp với nhu cầu của bạn */
+  overflow-y: auto; /* Cuộn nội dung nếu nó vượt quá kích thước giới hạn */
+  padding-bottom: 0;
+}
+
+
+
+.price-total {
+  /* Đảm bảo rằng phần đặt hàng ngay nằm ở cuối phần giỏ hàng */
+  position: sticky;
+  bottom: 0;
+
+  background-color: #fff; /* Thay đổi màu sắc nếu cần thiết */
+  padding: 25px;
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1; /* Đảm bảo phần tử nằm trên phần giỏ hàng */
+  text-align: right; /* Căn phải nút "Đặt hàng ngay" */
+  box-sizing: border-box;
+}
+
+
+

@@ -1,0 +1,104 @@
+.box-myorder{
+
+  box-shadow: 0 0 0.8px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  width: 952px;
+  box-sizing: border-box;
+}
+
+
+
+.box-myorder__title h3 {
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: #cc0000;
+}
+
+.box-order__detail{
+    display: flex;
+    padding: 5px 5px 0 5px;
+    font-size: 17px;
+}
+.myorder__title{
+    width: 130px;
+}
+.box-bill-detail__content{
+    display: flex;
+}
+.detail-product,
+.price-total,
+.status-transport,
+.quantity-product {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.box-product-review input{
+    width: 500px;
+    height: 25px;
+}
+.box-product-review  button{
+    margin-left: 5px;
+    height: 25px;
+}
+ 
+.box-product-review {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.box-bill-detail{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.box-bill-detail{
+    margin-top: 5px;
+}
+.container-detail{
+    margin-bottom: 5px;
+}
+.detail-product img {
+    height: 50px;
+    width: 50px;
+}
+.container--order {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: cornsilk;
+}
+.box-product-review form {
+    margin: 0;
+}
+.total-price {
+    font-size: 19px;
+    font-weight: 600;
+    /* margin: 5px 0px 0px 0px; */
+    margin-top: 7px;
+}
+.box-price__delete {
+    display: flex;
+    position: relative;
+}   
+button.delete-order-btn {
+    padding: 5px 32px 1px;
+    position: absolute;
+    right: 0;
+    margin: 5px 5px 0;
+    background-color: burlywood;
+}
+select {
+    height: 25px;
+}
